@@ -7,29 +7,38 @@
     background-color: teal;
     margin: 30px;
 }
-.sidebar {
-  float: right;
-  color: red;
-  width: 20%;
-  background-color: green;
-  border: 5px;
-  border-style: dotted dashed solid double;
-  padding: 10px;
+
+body{
+  background-color: #e9dccd;
+  font-family: fantasy;
+}
+.column{
+  width: 400px;
+  float: left;
+  font-family: monospace;
+  padding: 20px;
 }
 
-.column1{
-  width: 200px;
-  float: left;
-  background-color: blue;
+.column p{
+  font-family: serif;
 }
 
-.column2{
-  width: 200px;
-  float: left;
-  background-color: yellow;
+.column li{
+  font-family: sans-serif;
 }
-.column3{
-  width: 200px;
-  float: left;
-  background-color: red;
+.centered{
+  text-align: center;
+}
+img{
+   width: 600px;
+   border: 5px solid #ffcccc;
+}
+.column img{
+   width: 300px;
+   border: 10px solid grey;
+
+}
+
+.clear{
+  clear: both;
 }
